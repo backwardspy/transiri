@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "transiri"
+version = "0.1.0"
+description = ""
+authors = ["backwardspy <backwardspy@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyxel = "^1.4.3"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^21.8-beta.0"
+flake8 = "^3.9.2"
+mypy = "^0.910"
+pytest = "^6.2.5"
+ptpython = "^3.0.19"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
